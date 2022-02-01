@@ -1,0 +1,72 @@
+.MenuLateral{
+    width: 240px;
+    height: calc(100% - 60px);
+    background: #202020;
+    overflow-y: auto;
+}
+
+.MenuLateral::-webkit-scrollbar{
+    width: 8px;
+    border: 1px solid #000;
+}
+
+.MenuLateral::-webkit-scrollbar-thumb{
+    background-color: #727272;
+    border-radius: 6px;
+}
+
+.abasComTitulo{
+    padding-top: 20px;
+    width: 90%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #494949;
+}
+.abas{
+    width: 90%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #494949;
+}
+
+.tituloAba{
+    padding-left: 20px;
+    color: #b6b6b6;
+    font-size: 14px;
+}
+
+.icons{
+    color: #fff;
+}
+
+.item{
+    padding: 20px 0 0 32px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    cursor: pointer;
+}
+
+.item span{
+    color: #fff;
+    margin-left: 20px;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+
+.profileCanal{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.videoNovo{
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background: #4f4ff1 ;
+}
