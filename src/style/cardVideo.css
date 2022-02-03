@@ -1,0 +1,79 @@
+.janelaVideos{
+    width: 100%;
+    padding: 10px;
+    background: #202020;
+}
+.infosVideo{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 251px;
+    height: 253px;
+    cursor: pointer;
+}
+
+.tumbImage{
+    width: 251px;
+    height: 141px;
+
+}
+
+.imagemCanal img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.maisOpcao{
+    color: #AAA;
+}
+
+.sobeoVideo span{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+
+    color: #aaa;
+    font-weight: 500;
+    font-size: 14px;
+    padding-left: 10px;
+}
+.sobeoVideo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.visualizacao{
+    font-size: 12px;
+    color: #aaa;
+    font-weight: 400;
+    margin: 5px 0 0 10px;
+}
+
+.nomeCanal p{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.nomeCanal{
+    width: 100%;
+    margin: 5px 0 0 10px;
+    /* padding: 0; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #aaa;
+}
+
+.CheckCircleIcon{
+    color: #aaa;
+    margin-left: 5px;
+}
+
+.data{
+    display: flex;
+}

@@ -1,0 +1,44 @@
+.itens{
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    cursor: pointer;
+    height: 100%;
+}
+
+.profileCanal{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.nomeCanal{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    margin: 20px;
+}
+.videoNovo{
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+}
+
+.itemCanal{
+    padding: 0 24px;
+    width: 240px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.itemCanal:hover{
+    background: rgba(113,113,113, 0.5);
+}
